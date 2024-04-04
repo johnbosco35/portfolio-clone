@@ -40,7 +40,7 @@ const Portfolio = () => {
         <Projects
           title="BrightStarClinic- platform for Appointment"
           image={App}
-          link="brightstarclinic.com"
+          link="https://brightstarclinic.com/"
           desc="Welcome to Brightstarclinic, your go-to destination for seamless appointment scheduling. Our user-friendly platform is designed to empower both professionals and clients, providing a hassle-free experience from start to finish. Professionals can effortlessly manage their schedules, while clients can easily browse availability and book appointments with just a few clicks. With secure communication channels and instant confirmations, you can trust Brightstarclinic to streamline your scheduling process and enhance client satisfaction. Say goodbye to scheduling headaches and hello to efficiency with Brightstarclinic"
         />
         <Projects
