@@ -3,7 +3,9 @@ import { Projects } from "../common";
 import gift from "../assets/GiftCards.jpg";
 import doc from "../assets/sics.jpg";
 import fur from "../assets/fur.jpg";
-import todo from "../assets/todo.jpg";
+import App from "../assets/Appointment site.png"
+import Quiz from "../assets/Quiz app.png"
+// import todo from "../assets/todo.jpg";
 
 const Portfolio = () => {
   return (
@@ -29,11 +31,23 @@ const Portfolio = () => {
           link="https://chy4realfurniture.pages.dev"
           desc="Chy4Real Furnitures is an innovative online platform that revolutionizes the way users buy furniture. This platform acts as a virtual marketplace, connecting users with a wide selection of high-quality furniture items and enabling them to make convenient purchases from the comfort of their homes."
         />
-        <Projects
+        {/* <Projects
           title="TodoApp- A simple todo application"
           image={todo}
           link="https://finbarrtodo.netlify.app"
           desc="The Simple Todo App is a user application that focuses solely on task creation and updating to provide a streamlined and intuitive task management experience"
+        /> */}
+        <Projects
+          title="BrightStarClinic- platform for Appointment"
+          image={App}
+          link="brightstarclinic.com"
+          desc="Welcome to Brightstarclinic, your go-to destination for seamless appointment scheduling. Our user-friendly platform is designed to empower both professionals and clients, providing a hassle-free experience from start to finish. Professionals can effortlessly manage their schedules, while clients can easily browse availability and book appointments with just a few clicks. With secure communication channels and instant confirmations, you can trust Brightstarclinic to streamline your scheduling process and enhance client satisfaction. Say goodbye to scheduling headaches and hello to efficiency with Brightstarclinic"
+        />
+        <Projects
+          title="Quiz app- where learning meets fun!"
+          image={Quiz}
+          link="https://johnbosco35-quiz-app.pages.dev/"
+          desc="Welcome to the Quiz app, where learning meets fun! Dive into a world of knowledge and challenge yourself with engaging quizzes on a wide range of topics. Whether you're a trivia enthusiast or a lifelong learner, our app offers something for everyone. With a user-friendly interface and a variety of quiz categories to choose from, you can test your knowledge anytime, anywhere. Join thousands of users who are already enjoying the thrill of competition and the joy of learning."
         />
       </Holding>
     </Container>

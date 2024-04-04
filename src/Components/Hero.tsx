@@ -1,7 +1,6 @@
 import { styled } from "styled-components";
 import pics from "../assets/john.jpg";
-// import saveAs from "file-saver";
-import cv from "../assets/JB.pdf";
+import cv from "../assets/Okonkwo JohnBosco Onyedikachi.pdf";
 
 const Hero = () => {
   return (
